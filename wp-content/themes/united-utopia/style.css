@@ -1,0 +1,238 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400i|Raleway:600,900i|Satisfy';
+body {
+  font-family: "Raleway", sans-serif;
+  background: url(img/blossoms.png) #fff no-repeat center;
+  background-size: contain; }
+
+section {
+  margin-bottom: 20px; }
+
+#discount {
+  background: #03A9F4;
+  height: 2em;
+  padding: .15em 0; }
+
+#discount span {
+  margin-top: .2em;
+  padding-left: 12.5%;
+  color: #000; }
+
+#discount span a {
+  color: #3e2029; }
+
+#action-call {
+  background: url(img/gift.png) #3e2029 no-repeat center;
+  font-variant: small-caps;
+  text-align: center;
+  color: #fff;
+  padding: .775em 0;
+  font-size: 2em; }
+
+.brand-logo img {
+  position: relative;
+  width: 3em;
+  height: 3em;
+  z-index: 999; }
+
+nav {
+  background: #FFEB3B;
+  padding-top: 0 !important;
+  margin-top: 0 !important; }
+
+nav ul li a {
+  color: #3E2723; }
+
+.navbar li a:hover {
+  background: none;
+  color: red;
+  font-weight: 900;
+  font-style: italic; }
+
+nav ul li a:visited {
+  color: #B71C1C; }
+
+.nav-left {
+  position: relative;
+  left: 25em; }
+
+.nav-right {
+  position: relative;
+  left: 43em; }
+
+nav .brand-logo {
+  z-index: 2;
+  background: #fff; }
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: .3s;
+  animation-name: fade;
+  animation-duration: 3s;
+  visibility: hidden; }
+
+.active {
+  -webkit-animation-name: active;
+  -webkit-animation-duration: .3s;
+  animation-name: active;
+  animation-duration: .3s;
+  visibility: visible !important; }
+
+@keyframes fade {
+  1% {
+    opacity: 98%;
+    display: block;
+    visibility: visible; }
+  25% {
+    opacity: 65%; }
+  50% {
+    opacity: 35%; }
+  100% {
+    opacity: 0%; } }
+
+@-webkit-keyframes fade {
+  1% {
+    opacity: .98;
+    display: block;
+    visibility: visible; }
+  25% {
+    opacity: .65; }
+  50% {
+    opacity: .35; }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+    x-index: -4; } }
+
+@keyframes active {
+  1% {
+    opacity: .01;
+    visibility: visible;
+    z-index: 2; }
+  25% {
+    opacity: .25; }
+  50% {
+    opacity: .75; }
+  100% {
+    opacity: 1; } }
+
+@-webkit-keyframes active {
+  1% {
+    opacity: .01; }
+  25% {
+    opacity: .25; }
+  50% {
+    opacity: .75; }
+  100% {
+    opacity: 1; } }
+
+.category-list {
+  padding-left: 3em;
+  list-style: none;
+  display: inline; }
+
+.category-list li {
+  display: inline-block;
+  text-align: center; }
+
+.category-list li p {
+  font-family: "Open Sans"; }
+
+.cir-btn {
+  height: 2em;
+  width: 2em;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+  border-radius: 50%;
+  border: none; }
+
+button:focus {
+  border: none !important; }
+
+#lft-btn {
+  position: relative;
+  right: 55%;
+  top: 12.5em; }
+
+#rt-btn {
+  position: relative;
+  top: 10em;
+  right: -2.5%; }
+
+#helping h2 {
+  font-family: "Satisfy", cursive;
+  position: relative;
+  bottom: 5.5em;
+  z-index: 999;
+  color: #fff;
+  text-shadow: 2px 1px 2px #3E2723;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2.6em;
+  font-weight: 700;
+  letter-spacing: .01em;
+  text-rendering: optimizeLegibility;
+  text-align: center; }
+
+#helping img {
+  position: static;
+  z-index: -1;
+  text-align: center;
+  margin: 2em; }
+
+.slider {
+  margin-top: 2em;
+  position: relative;
+  z-index: 0;
+  background: #ebf1f6;
+  background: -moz-linear-gradient(left, #ebf1f6 0%, #abd3ee 17%, #89c3eb 28%, #5670CC 72%, #89c3eb 83%, #ebf1f6 100%);
+  background: -webkit-linear-gradient(left, #ebf1f6 0%, #abd3ee 17%, #89c3eb 28%, #5670CC 72%, #89c3eb 83%, #ebf1f6 100%);
+  background: linear-gradient(to right, #ebf1f6 0%, #abd3ee 17%, #89c3eb 28%, #5670CC 72%, #89c3eb 83%, #ebf1f6 100%); }
+
+.slide {
+  position: absolute;
+  display: inline;
+  text-align: center;
+  padding: 3em 0;
+  z-index: -1;
+  visibility: hidden; }
+
+.slide-img {
+  margin-bottom: 2.5em;
+  padding-bottom: 1.5em; }
+
+footer {
+  clear: both;
+  position: relative;
+  background: #FFEB3B; }
+
+.none {
+  margin-bottom: 0; }
+
+.footer-list {
+  list-style: none;
+  text-align: center;
+  margin-top: 1.4em; }
+
+.footer-list li a {
+  padding-top: .25em;
+  color: #202020; }
+
+.footer-list li a:hover {
+  color: #BCAAA4; }
+
+.category-list li {
+  font: "Open Sans";
+  width: 26em; }
+
+.triple-pic {
+  height: 450px;
+  margin-bottom: 1.25em;
+  padding: 0 !important; }
+
+.product-sidebar img {
+  height: 146px; }
+
+.icon img {
+  height: 120px;
+  width: 120px; }
