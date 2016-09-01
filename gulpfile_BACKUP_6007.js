@@ -14,14 +14,15 @@ gulp.task('default', ['watch']);
 
 
 gulp.task('build-css', function() {
-
+<<<<<<< HEAD
   return gulp.src('wp-content/themes/accesspress-child/scss/**/*.scss')
     .pipe(sass())
     .pipe(gulp.dest('wp-content/themes/accesspress-child/'))
-
+=======
   return gulp.src('wp-content/themes/united-utopia/scss/**/*.scss')
     .pipe(sass())
     .pipe(gulp.dest('wp-content/themes/united-utopia/'))
+>>>>>>> 853941cd0d83336e1b31f43fc9019cbb8c7073f3
     .pipe(browserSync.reload({
       stream: true
     }))
@@ -38,11 +39,11 @@ gulp.task('browserSync', function() {
 
 gulp.task('watch', function() {
   
-
+<<<<<<< HEAD
   gulp.watch('wp-content/themes/accesspress-child/scss/**/*.scss', ['build-css']);
-
+=======
   gulp.watch('wp-content/themes/united-utopia/scss/**/*.scss', ['build-css']);
-
+>>>>>>> 853941cd0d83336e1b31f43fc9019cbb8c7073f3
 });
 
 gulp.task('htmlbeautify', function() {

@@ -14,14 +14,9 @@ gulp.task('default', ['watch']);
 
 
 gulp.task('build-css', function() {
-
   return gulp.src('wp-content/themes/accesspress-child/scss/**/*.scss')
     .pipe(sass())
     .pipe(gulp.dest('wp-content/themes/accesspress-child/'))
-
-  return gulp.src('wp-content/themes/united-utopia/scss/**/*.scss')
-    .pipe(sass())
-    .pipe(gulp.dest('wp-content/themes/united-utopia/'))
     .pipe(browserSync.reload({
       stream: true
     }))
@@ -38,11 +33,7 @@ gulp.task('browserSync', function() {
 
 gulp.task('watch', function() {
   
-
   gulp.watch('wp-content/themes/accesspress-child/scss/**/*.scss', ['build-css']);
-
-  gulp.watch('wp-content/themes/united-utopia/scss/**/*.scss', ['build-css']);
-
 });
 
 gulp.task('htmlbeautify', function() {

@@ -5,6 +5,7 @@
     <ul class='footer-list col s4 offset-s2'>
       <li><a href='#'>About United Utopia</a></li>
       <li><a href='#'>Who We Help</a></li>
+<<<<<<< HEAD
       <li><a href='#'>Featured Artists</a></li>
       <li><a href='#'>Our Team</a></li>
       <li><a href='#'>Featured Products</a></li>
@@ -16,6 +17,16 @@
       <li><a href='#'>Current Promotions</a></li>
       <li><a href='#'>Become an Affiliate</a></li>
       <li><a href='#'>Affiliate Locations</a></li>
+=======
+      <li><a href='#'>Our Partners</a></li>
+      <li><a href='#'>Our Team</a></li>
+      <li><a href='#'>Contact Us</a></li>
+    </ul>
+    <ul class='footer-list col s4'>
+      <li><a href='#'>Order</a></li>
+      <li><a href='#'>FAQ</a></li>
+      <li><a href='#'>Become an Affiliate</a></li>
+>>>>>>> 853941cd0d83336e1b31f43fc9019cbb8c7073f3
       <li><a href='#'>Join Our Mailing List</a></li>
 
     </ul>
